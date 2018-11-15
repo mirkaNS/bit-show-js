@@ -3,6 +3,12 @@
     padding:0;
 }
 
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .bg-light {
     background-color:rgb(8, 8, 68)!important;
     h4 {
@@ -10,16 +16,33 @@
     }
 }
 
-div {
-    height: 100vh;
+main {
+ 
     h2{
         margin-top:20px;
         text-align: center;
-       
     }
+   .top50 { 
+
+         div {
+            display: inline-block;
+            
+            img {
+                 width: 100%;
+                 border-radius: 25px;
+            }
+  
+        }
+    }
+    h6{
+        display: inline;
+    }
+
+   
 }
 
 footer {
+    
     background-color:rgb(8, 8, 68);
     p {
         padding:10px;
@@ -27,4 +50,9 @@ footer {
         text-align: center;
     }
 }
-
+.card{
+    width: 350px;
+    height: 470px;
+    margin: 10px;
+    border: none;
+}

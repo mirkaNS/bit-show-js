@@ -2,16 +2,26 @@
   margin: 0;
   padding: 0; }
 
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both; }
+
 .bg-light {
   background-color: #080844 !important; }
   .bg-light h4 {
     color: white; }
 
-div {
-  height: 100vh; }
-  div h2 {
-    margin-top: 20px;
-    text-align: center; }
+main h2 {
+  margin-top: 20px;
+  text-align: center; }
+main .top50 div {
+  display: inline-block; }
+  main .top50 div img {
+    width: 100%;
+    border-radius: 25px; }
+main h6 {
+  display: inline; }
 
 footer {
   background-color: #080844; }
@@ -19,5 +29,11 @@ footer {
     padding: 10px;
     color: white;
     text-align: center; }
+
+.card {
+  width: 350px;
+  height: 470px;
+  margin: 10px;
+  border: none; }
 
 /*# sourceMappingURL=style.css.map */
