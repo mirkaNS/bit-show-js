@@ -18,26 +18,21 @@
     <header class="navbar navbar-light bg-light">
         <h4>BitShow</h4>
         <form class="form-inline my-2 my-lg-0">
-            <input class="form-inline form-control mr-sm-2 button" type="search" placeholder="Search" aria-label="Search">
+            <input class="form-inline form-control mr-sm-2 button search" type="search" placeholder="Search" aria-label="Search">
+             <div class="dropdown-menu">
+
+            </div>
         </form>
 
-        <!-- <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-        <div id="myDropdown" class="dropdown-content">
-          <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
-          <a href="#about">About</a>
-          <a href="#base">Base</a>
-          <a href="#blog">Blog</a>
-          <a href="#contact">Contact</a>
-          <a href="#custom">Custom</a>
-          <a href="#support">Support</a>
-          <a href="#tools">Tools</a>
-        </div> -->
+    
 
     </header>
 
-    <div>
-        <h2>Popular Show</h2>
+    <div class="top50 row">
+        <h2 class="col-12">Popular Show</h2 >
+  
     </div>
+
     <footer>
         <p>Copyright@BitStudent</p>
     </footer>
@@ -48,6 +43,7 @@
     <script type="module">
         import { init } from '../js/app.js'
         // jQuery on document ready 
+        console.log(1);
         $(init);
     </script>
 

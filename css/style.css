@@ -7,11 +7,13 @@
   .bg-light h4 {
     color: white; }
 
-div {
+.top50 {
   height: 100vh; }
-  div h2 {
+  .top50 h2 {
     margin-top: 20px;
     text-align: center; }
+  .top50 .cardText {
+    height: 30px; }
 
 footer {
   background-color: #080844; }
@@ -19,5 +21,8 @@ footer {
     padding: 10px;
     color: white;
     text-align: center; }
+
+h2 {
+  color: green; }
 
 /*# sourceMappingURL=style.css.map */
