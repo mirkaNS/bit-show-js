@@ -54,7 +54,7 @@ const fetchDataPage=(onSuccess,movie)=>{
         $.ajax(seasonRequestUrl)
         .done((seasons)=>{
             movie.seasons=seasons;
-            console.log(movie.seasons);
+        //    console.log(movie.seasons);
             onSuccess(movie);
 
         })
