@@ -2,11 +2,17 @@
   margin: 0;
   padding: 0; }
 
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both; }
+
 .bg-light {
   background-color: #080844 !important; }
   .bg-light h4 {
     color: white; }
 
+<<<<<<< HEAD
 .top50 {
   height: 100vh; }
   .top50 h2 {
@@ -14,6 +20,18 @@
     text-align: center; }
   .top50 .cardText {
     height: 30px; }
+=======
+main h2 {
+  margin-top: 20px;
+  text-align: center; }
+main .top50 div {
+  display: inline-block; }
+  main .top50 div img {
+    width: 100%;
+    border-radius: 25px; }
+main h6 {
+  display: inline; }
+>>>>>>> 7bf56a4433c75f326deb08441387d0c70c23371f
 
 footer {
   background-color: #080844; }
@@ -22,7 +40,15 @@ footer {
     color: white;
     text-align: center; }
 
+<<<<<<< HEAD
 h2 {
   color: green; }
+=======
+.card {
+  width: 350px;
+  height: 470px;
+  margin: 10px;
+  border: none; }
+>>>>>>> 7bf56a4433c75f326deb08441387d0c70c23371f
 
 /*# sourceMappingURL=style.css.map */
