@@ -1,28 +1,17 @@
-<<<<<<< HEAD
 import Movie from './entities/movie.js';
-=======
-const requestUrl = 'http://api.tvmaze.com/shows';
-
->>>>>>> 7bf56a4433c75f326deb08441387d0c70c23371f
 const fetchData = (onSuccess) => {
 
+    const requestUrl = 'http://api.tvmaze.com/shows';
+
     $.ajax(requestUrl)
-<<<<<<< HEAD
         .done((listOfShows) => {
             console.log('Server response onDone: ', listOfShows);
             
-=======
-
-        .done(function (listOfShows) {
-
-            // console.log('Server response onDone: ', listOfShows);
->>>>>>> 7bf56a4433c75f326deb08441387d0c70c23371f
 
             listOfShows.sort((current, next) => (
                 next.rating.average - current.rating.average
             ));
 
-<<<<<<< HEAD
             const top50 = listOfShows.slice(0, 50);
 
             
@@ -65,7 +54,7 @@ const fetchDataPage=(onSuccess,movie)=>{
         $.ajax(seasonRequestUrl)
         .done((seasons)=>{
             movie.seasons=seasons;
-        //    console.log(movie.seasons);
+            console.log(movie.seasons);
             onSuccess(movie);
 
         })
@@ -74,14 +63,6 @@ const fetchDataPage=(onSuccess,movie)=>{
         
     });
 }
-=======
-            onSuccess(listOfShows);
-        });
-}
-
-
-
->>>>>>> 7bf56a4433c75f326deb08441387d0c70c23371f
 
 export {
     fetchData,

@@ -1,14 +1,8 @@
-<<<<<<< HEAD
 import * as ui from './ui.js'
-=======
-
->>>>>>> 7bf56a4433c75f326deb08441387d0c70c23371f
 import * as data from './data.js'
-import * as ui from './ui.js'
 
 const init = () => {
     console.log("App initialized");
-<<<<<<< HEAD
     const response = (data) => {
         ui.dispayMovies(data);
     }
@@ -46,16 +40,6 @@ const initDetails = () => {
     // vratis u onSuccess function u app.js
     // gde zoves ui function za prikaz tih podataka
 
-=======
-    data.fetchData(onSuccess);
-}
-
-const onSuccess = (listOfShows) => {
-
-    const top50 = listOfShows.slice(0, 51);
-    console.log(listOfShows);
-    ui.displayTopMovies(top50);
->>>>>>> 7bf56a4433c75f326deb08441387d0c70c23371f
 
 }
 
